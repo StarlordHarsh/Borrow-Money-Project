@@ -1,0 +1,11 @@
+We have seen in small shops that some people say that if they are short on money, then he says the owner of the shopive him a little credit and to write down the remaining money somewhere and the next time when he comes he will pay the remaining money. This is not the best method as if the paper gets lost or if the owner forgets about that paper then this can be a big problem.
+
+Taking our college campus for example, there are some stationary shops, canteen, etc. On a daily basis there are about 100s of students who come to those shops. Among those about 5 people are there who say that are short on money and they will pay the money afterwards. This creates problem to the vendors as it is not easy to remember the faces or the names of the students,even if they write it down, there is always a fear of losing that particular sheet or copy . They can't also deny them as some of them are regular customers so they are helpless regarding it.
+
+To make things easier we have made a software that will manage the details of the customer. This software will take the details of the customer like Name, SAP id(it is a unique no. allotted to each student), money borrowed and remarks (description of the item he has taken).
+
+This software is made on two different languages, Frontend is managed by JAVA Swing(GUI based application) and Backend is managed by MySQL and these both are connected using Java Database Connectivity (JDBC). This makes it easy for the owner to select the options easily.
+
+Features of the Software- 1. Takes input of ID, Name, Money borrowed and Description of the item he took. 2. Same ID cannot be taken twice, it will show an error. 3. After paying his dues, the user can update or delete the data of the student as per his need. 4. The user can also search for any student, it will show the name, id, due money and remark of the particular student. 5. This program also stores and prints the time and date at which new entry is created.
+
+Constraints- 1. Unsure how many data MySQL can store. 2. Requirement of this software are JDBC local host .jar file to connect to MySQL and MySQL server.
